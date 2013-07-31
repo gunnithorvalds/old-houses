@@ -1,0 +1,123 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	font-family: "brandon-grotesque",sans-serif;
+}
+
+/**
+section {
+	min-height: 100%; 
+	clear:both; 
+	height:inherit; 
+	width:inherit;
+}
+**/
+
+section {
+	border-top: 20px solid #fff;
+	border-left: 20px solid #fff;
+	border-right: 20px solid #fff;
+}
+
+section.pink {
+	background-color: #ED7272;
+}
+
+section.green {
+	background-color: #83A5A1;
+}
+
+section.blue {
+	background-color: #A2C6DD;
+}
+
+.house {
+	position: relative;
+	max-width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.house img {
+	max-width: 700px;
+	width: 100%;
+	height: auto;
+	margin: 50px 0 0 0;
+}
+
+h4, h5 {
+	line-height: 1;
+	margin: 0 0 0 0;
+}
+
+.info {
+	margin-bottom: 116px;
+}
+
+.info h4, h5 {
+	font-family: "brandon-grotesque", sans-serif;
+	text-align: center;
+	color: #fff;
+}
+
+.info h4 {
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 15px;
+	letter-spacing: .1em;
+}
+
+.info h5 {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 19px;
+	letter-spacing: .4em;
+	text-transform: uppercase;
+}
+
+.info a {
+	color: #fff;
+	transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.3s ease-in-out;
+}
+
+.info a:hover {
+	opacity: .7;
+}
+
+.nafn {
+	font-family: "brandon-grotesque", sans-serif;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 15px;
+	letter-spacing: .1em;
+}
+
+footer {
+	background-color: #fff;
+	height: 20px;
+}
+
+
+
+@media all and (max-width: 320px) {
+	.house img {
+		margin-top: 56px;
+	}
+	.info {
+		margin-bottom: 83px;
+	}
+	section {
+		border-top: 10px solid #fff;
+		border-left: 10px solid #fff;
+		border-right: 10px solid #fff;
+	}
+	footer {
+		height: 10px;
+	}
+}
